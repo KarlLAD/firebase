@@ -1,0 +1,55 @@
+*{
+    background-color: red;
+    padding: 10px;
+    margin:50px;
+
+}
+
+header{
+    background-color: pink;
+    display: flex;
+    flex: 1;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+header .content{
+    background-color: blueviolet;
+    width: 1089px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    height: 70px;
+    width: 70px;
+    background-color: black;
+}
+header .navbar{
+    height: 70px;
+    width: 200px;
+    background-color: blue;
+}
+
+/* gestion de la box avec display, flex, justify, align */
+/* #agir sur l'identifiant  , '.' sur la class*/
+.container{
+display: flex;
+flex: 1;
+background-color: aquamarine;
+height: 100vh;
+justify-content: start; /*  par défaut start  */
+justify-content: space-between; 
+align-items: center;
+
+}
+
+.container .box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+
+}

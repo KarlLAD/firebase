@@ -1,0 +1,209 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
+}
+
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  cursor: context-menu;
+}
+
+header .logo {
+  font-size: 3rem;
+  color: #333;
+  font-weight: bolder;
+}
+header .logo span {
+  color: orange;
+}
+
+header .icon-logo:hover {
+  color: orangered;
+  font-size: 2.5rem;
+  margin-right: 1.5rem;
+}
+header .navbar a {
+  font-size: 2rem;
+  padding: 0 1.5rem;
+  color: black;
+}
+header .navbar a:hover {
+  color: orange;
+}
+
+header .icons {
+  background-color: orange;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 20px;
+}
+header .icons a {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 2rem;
+}
+
+header .icons a:hover {
+  color: blue;
+}
+
+.image-container img {
+  width: 300px;
+}
+
+.home .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+.home .row h1 {
+  padding: 0;
+  margin: 0;
+
+  color: orange;
+  font-size: 1.5rem;
+  /* justify-content: flex-end; */
+}
+.home .row span {
+  /* display: flex; */
+  font-size: 1.5rem;
+  color: black;
+  padding: 20rem;
+  margin-left: -18rem;
+  line-height: 1.5;
+}
+
+.home p {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: -9rem;
+}
+
+/* style du button  début 1er étape*/
+.Choose {
+  display: flex;
+  flex: 1;
+  border: 0;
+  height: 50px;
+  width: 220px;
+  padding: 1rem 20px 1rem 2.5rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 30px;
+  background-color: rgba(220, 176, 0, 0.991);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+/* 2éme étape : effet souris sur le bouton*/
+.Choose:hover {
+  background-color: rgb(0, 221, 255);
+}
+/* 3éme étape */
+.Choose:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+/* fin style du button*/
+
+/* déjeuner */
+.morning {
+/* height: 50vh; */
+margin-bottom: 4rem;
+
+}
+/* .morning h2{
+  margin-bottom: 5rem;
+
+} */
+.container {
+  display: flex;
+  flex: 1;
+  /* background-color: aquamarine; */
+  height: 70vh;
+  justify-content: space-between;
+  align-items: center;
+}
+/* style bouton des menus */
+.container .button-menu {
+  border: 0;
+  height: 50px;
+  width: 180px;
+
+  padding: 1rem 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #0a0a0a;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 20px;
+  /* background-color: rgba(220, 176, 0, 0.382); */
+  background-color: burlywood;
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.container .button-menu:hover {
+  background-color: rgb(255, 153, 0);
+}
+
+.container .button-menu:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.979),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.container img {
+  width: 20px;
+  height: 20px;
+
+}
+
+
+

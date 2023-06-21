@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodFun</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- début header -->
+    <header>
+        <!-- <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label> -->
+
+                <!-- afficher le logo -->
+        <div class="icon-logo">
+            <a href="#fast-food" class="fa-solid fa-burger"></a>     
+            <a href="#home" class="logo">Food<span>Fun</span></a>
+        </div>
+
+        <!-- début navbar du menu -->
+        <nav class="navbar">
+        <!-- accueil -->
+            <a href="#home" class="home">home</a>
+
+            <a href="#list-menu" class="menu">menu</a>
+
+            <a href="#about" class="about">about</a>
+
+            <a href="#contact" class="contact">contact</a>
+
+        </nav>
+        <!-- fin navbar -->
+
+        <!-- afficher les icones de header -->
+        <div class="icons">
+            <a href="#search" class="fas fa-search"></a>
+            <a href="#shopping-cart" class="fas fa-shopping-cart"></a>
+      
+        </div>
+    </header>
+    <!-- fin header -->
+    <!-- début section accueil -->
+    <section class="home" id="home">
+        <div class="row">
+
+            <h1 class="welcome">Welcome </h1><span> to The world of Tasty & Fresh Food </span>
+
+
+            <div class="image-container">
+                <img src="../FoodFun/images/home-bg.jpg" class="imag-right">
+            </div>
+        </div>  
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rerum praesentium eveniet nostrum voluptatibus.
+                Consectetur adipisci aut qui, neque ratione accusamus 
+               mollitia animi voluptate rem optio voluptas similique illum et?</p>
+
+        <!-- <button class="Choose" type="submit" >Choisir un menu</button> -->
+        <a href="#list-menu" class="Choose">Choisir un menu</a>
+
+    </section>
+    <!-- fin section home -->
+
+
+    <!-- début section listes des menus -->
+<section class="list-menu" id="list-menu">
+
+    <div class="morning">
+        <p>***</p>
+        <p>***</p>
+
+            <h2 class="breakfast">Breakfast</h2>
+            <span class="heure">9.00 am 11.00 am</span>
+        </div>
+
+        <div class="container" >
+
+           <a href="#fast-food" class="button-menu"><img src="..\FoodFun\images\fast-food.jpg">  Fast food</a>
+           <a href="#menu-du-jour" class="button-menu"><img src="..\FoodFun\images\menu-du-jour.jpg">  Menu du jour</a>
+           <a href="#boissons" class="button-menu"><img src="..\FoodFun\images\boisson-1.jpg"> Boissons</a>
+           <a href="#fruits-frais" class="button-menu"><img src="..\FoodFun\images\fruits.jpg"> Fruits frais</a>
+
+            <!-- <button class="menu" type="button" > <img src="..\FoodFun\images\fast-food.jpg"> Fast food</button>
+            <button class="menu" type="button"><img src="..\FoodFun\images\menu-du-jour.jpg"> Menu du jour</button>
+            <button class="menu" type="button"><img src="..\FoodFun\images\boisson-1.jpg"> Boissons</button>
+            <button class="menu" type="button"><img src="..\FoodFun\images\fruits.jpg"> Fruits frais</button> -->
+
+        </div>
+    </section>
+    <!-- fin de la sélection des listes de menus -->
+
+<!-- début fast-food -->
+    <section class="fast-food" id="fast-food">
+
+    <h3 >Fast Food</h3>
+    <div class="menu-fast">
+        <h4 class="cheeseburger">Cheeseburger</h4>
+        <img src="../FoodFun/images/cheeseburger_2.jpg">
+        <p class="descrip-cheese">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, cumque amet sint,
+             voluptates repellat dolore ipsa corporis fugiat suscipit perferendis eligendi accusantium consectetur
+             voluptatum est voluptas.   Ea cupiditate similique incidunt!</p>
+        <a href="#cart-menu" class="valider">valider</a>
+        <select name="quantity" id="" class="quantity">
+            <option value="1" selected>1 </option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <h4 class="Crispy-Fish-Burgers">Crispy Fish Burgers</h4>
+        <img src="../FoodFun/images/Crispy-Fish-Burgers.jpg">
+        <p class="descrip-crispy-fish">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, cumque amet sint,
+             voluptates repellat dolore ipsa corporis fugiat suscipit perferendis eligendi accusantium consectetur
+             voluptatum est voluptas.   Ea cupiditate similique incidunt!</p>
+        <a href="#cart-menu" class="valider">valider</a>
+        <select name="quantity" id="" class="quantity">
+            <option value="1" selected>1 </option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <h4 class="burger-FastFood">burger-FastFood</h4>
+        <img src="../FoodFun/images/burger king.jpg">
+        <p class="descrip-burger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus perferendis
+             rem ipsum et commodi! Asperiores molestiae laudantium quia ipsa rem maiores porro numquam velit
+              laboriosam placeat. Voluptas, perferendis. Ratione, quos!</p>
+        <a href="#cart-menu" class="valider">valider</a>
+        <select name="quantity" id="" class="quantity">
+            <option value="1" selected>1 </option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <h4 class="chiken-burgers">chiken burgers</h4>
+        <img src="../FoodFun/images/chiken burgers.jpg">
+        <p class="descrip-chiken-burger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat voluptatem molestias,
+             ut quas, tempora asperiores dicta molestiae, vitae natus eos assumenda! Dolor repellat
+              nulla totam ab modi nesciunt, cumque dolorum.</p>
+        <a href="#cart-menu" class="valider">valider</a>
+        <select name="quantity" id="" class="quantity">
+            <option value="1" selected>1 </option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+    </div>
+
+
+    </section>
+
+<!-- fin fast-food -->
+
+
+<!-- début section du menu du jour -->
+    <section class="menu-du-jour" id="menu-du-jour">
+    <h3> menu du jour</h3>
+    <div class="menu-jour">
+        <h4 class="chili con carne_1">chili con carne</h4>
+        <img src="../FoodFun/images/chili con carne_1.jpg">
+        <p class="descrip-menu-du-jour">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi vero nisi architecto debitis officiis amet quis deleniti velit minus totam asperiores neque assumenda reprehenderit, aperiam libero ab eveniet, impedit dignissimos!</p>
+        <a href="#cart-menu" class="valider">valider</a>
+        <select name="quantity" id="" class="quantity">
+            <option value="1" selected>1 </option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+    </div>
+    </section>
+<!-- fin section du menu du jour -->
+
+
+<!-- début section boissons-->
+
+    <section class="boissons" id="boissons">
+        <h3>boissons</h3>
+    </section>
+<!-- fin section boissons-->
+ 
+    <!-- début section fruits-frais -->
+    <section class="fruits-frais" id="fruits-frais">
+        <h3>fruits-frais</h3>
+    </section>
+
+    <!-- fin section fruits-frais -->
+
+
+    <!-- début section about -->
+    <section class="about" id="about">
+        <h3>About</h3>
+        <h4>The Healthy Food For walthy Mood</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos sint tempore doloremque 
+            voluptatibus dicta, natus distinctio suscipit dolores perferendis incidunt blanditiis
+             a deserunt in provident tempora ipsam placeat, alias omnis.</p>
+    </section>
+    <!-- fin section about --> 
+
+    <!-- début section contact-->
+    <section class="contact" id="contact">
+        <h4> Contact </h4> 
+        <p>Adresse : </p>
+        <p>Tél: <span>Email : foodfun@gmail.com:</span></p>
+    </section>
+    <!-- fin section contact-->
+
+    <!-- début section search -->
+    <section class="search" id="search">
+        <h3>search</h3>
+    </section>
+
+    <!-- fin section search -->
+
+    <!--  début section panier-->
+    <section class="shopping-cart" id="shopping-cart">
+        <h3>s Panier</h3>
+    </section>
+
+    <!--  fin section panier-->
+
+
+</body>
+</html>
